@@ -1,8 +1,8 @@
 <div id="sidebar-categories" class="sidebar">
-    <div class="sidebar-container">
+    <div class="sidebar-box">
         <?php dynamic_sidebar( 'categories' ); ?>
     </div>
-    <div class="sidebar-container">
+    <div class="sidebar-box">
         <h2>Events</h2>
         <div id="events">
             <h3>Today</h3>

@@ -19,12 +19,12 @@ body {
 a {
     color: white;
 }
-p {
+/*p {
     padding: 10px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 header {
     background-image: url('/wp-content/themes/theme/images/header.jpg');
     background-size: 100%;
@@ -183,19 +183,23 @@ footer a {
     display: flex;
 }
 .side {
-    flex-grow: 1
+    flex-grow: 1;
+    margin: 20px;
+}
+.side:first-child {
+    text-align: left;
 }
 .side:nth-child(2) {
     width: 25%;
 }
-.sidebar {
-    margin: 20px;
-}
-.sidebar-container {
+.sidebar-box {
     background-color: #663300;
     border: 4px solid #351A00;
     padding: 20px;
     margin-top: 20px;
+}
+.sidebar-box > h2 {
+    margin-top: 0;
 }
 .menu {
     position: absolute;
