@@ -192,17 +192,16 @@ footer a {
     text-align: left;
 }
 .side:first-child {
-    flex-basis: 75%;
+    width: calc(100% - 480px);
 }
 .side:nth-child(2) {
-    flex-basis: 25%;
+    width: 400px;
 }
 .sidebar-box {
     background-color: #663300;
     border: 4px solid #351A00;
     padding: 20px;
     margin-top: 20px;
-    min-width: 400px;
     box-sizing: border-box;
 }
 .sidebar-box h2 {
