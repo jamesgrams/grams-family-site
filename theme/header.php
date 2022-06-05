@@ -3,8 +3,6 @@
     <head>
         <title><?php echo $args['title']; ?></title>
         <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
-        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script defer src="index.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -19,5 +17,5 @@
         <meta name="theme-color" content="#00381c">
     </head>
     <body>
-    <div class="header"><h1>The Grams Family</h1></div>
+    <header><h1>The Grams Family</h1></header>
         <main>
