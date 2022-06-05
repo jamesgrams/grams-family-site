@@ -2,7 +2,7 @@
 
     <div class="post">
         <!-- Display the Title as a link to the Post's permalink. -->
-        <h3><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+        <<?php echo $args["h"] ? $args["h"] : "h3"?>><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></<?php echo $args["h"] ? $args["h"] : "h3"?>>
         <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
         <small><?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></small>
         <!-- Display the Post's content in a div box. -->
