@@ -371,24 +371,26 @@ $(document).ready( function() {
         // Generate the events for the day
         generateEvents();
 
-        // We want to draw the graph now
-        addChildren( null, "root", 0 );
+        if( $("#members").length ) {
+            // We want to draw the graph now
+            addChildren( null, "root", 0 );
 
-        // calculate the height and width to make the container
-        // These numbers added work, but not sure why exactly these extra values are needed
-        $("#container").width( $('#members').width() + 4 );
-        var $membersHeight = $('#members').height() + 4
-        $("#container").height( $membersHeight );
-        // 20 for the scrollbar, only 2 is needed line before
-        // setting the max height of the wrapper here
-        // don't have one for now
-        // $("#container-wrapper").height( Math.min( $membersHeight + 20, 1000 ) ); // Up to 500px high before having scroll
-        
-        // Draw all the lines
-        addConnections();
-        
-        // Center the family tree
-        $('#container-wrapper').scrollLeft( $('#container').width()/2 - $('#container-wrapper').width()/2 );
+            // calculate the height and width to make the container
+            // These numbers added work, but not sure why exactly these extra values are needed
+            $("#container").width( $('#members').width() + 4 );
+            var $membersHeight = $('#members').height() + 4
+            $("#container").height( $membersHeight );
+            // 20 for the scrollbar, only 2 is needed line before
+            // setting the max height of the wrapper here
+            // don't have one for now
+            // $("#container-wrapper").height( Math.min( $membersHeight + 20, 1000 ) ); // Up to 500px high before having scroll
+            
+            // Draw all the lines
+            addConnections();
+            
+            // Center the family tree
+            $('#container-wrapper').scrollLeft( $('#container').width()/2 - $('#container-wrapper').width()/2 );
+        }
     } );
 
 });
