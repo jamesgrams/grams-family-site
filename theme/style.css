@@ -201,7 +201,7 @@ footer a {
     min-width: 400px;
     box-sizing: border-box;
 }
-.sidebar-box > h2 {
+.sidebar-box h2 {
     margin-top: 0;
 }
 .menu {
