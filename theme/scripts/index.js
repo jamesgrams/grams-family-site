@@ -482,7 +482,7 @@ function createPerson(member) {
     }
     if( member.picture ) {
         var $pictureDiv = $('<div>').addClass("picture");
-        var $img = $('<img>').attr("src", member.picture);
+        var $img = $('<img>').attr("src", "/wp-content/themes/theme/" + member.picture);
         $pictureDiv.append($img);
         $el.append($pictureDiv);
     }
