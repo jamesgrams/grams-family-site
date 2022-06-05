@@ -168,7 +168,7 @@ https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-
     margin-left: 10px;
     margin-right: 10px;
 }
-#footer {
+footer {
     border-top: 4px solid #351A00;
     margin-top: 20px;
     padding-top: 40px;
@@ -176,7 +176,7 @@ https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-
     color: white;
     background-color: #663300;
 }
-#footer a {
+footer a {
     color: white;
 }
 .sidebar {
