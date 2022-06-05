@@ -1,3 +1,4 @@
+var $ = jQuery;
 // To add a male: Add their name, id, fatherId, and spouseId (optional)
 // If they have no fatherId in the tree, make the fatherId "root", and be sure to set a customDepth
 // for where they start if not the top of the tree (1 = second row)
