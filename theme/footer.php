@@ -1,4 +1,8 @@
-        <?php get_sidebar()?>
+                </div>
+                <div class="side">
+                    <?php get_sidebar()?>
+                </div>
+            </div>
         </main>
         <footer>
             <p>Created by <a href="https://jamesgrams.com" target="_blank" rel="noopener noreferrer">James Grams</a>

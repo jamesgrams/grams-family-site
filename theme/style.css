@@ -179,8 +179,10 @@ footer {
 footer a {
     color: white;
 }
+.split {
+    display: flex;
+}
 .sidebar {
-    float: right;
     max-width: 25%;
 }
 .sidebar-container {
@@ -188,6 +190,17 @@ footer a {
     border: 4px solid #351A00;
     padding: 20px;
     margin-top: 20px;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.menu li {
+    padding: 10px;
 }
 
 @media only screen and (max-width: 700px) {
