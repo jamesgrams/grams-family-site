@@ -33,7 +33,7 @@ header {
     height: 175px;
     border-bottom: 4px solid #351A00;
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
 }
 h1 {
     padding: 10px;
@@ -216,11 +216,11 @@ footer a {
     padding: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 830px) {
     .split {
         display: block;
     }
     .side {
-        width: 100% !important;
+        width: calc(100% - 40px) !important;
     }
 }
