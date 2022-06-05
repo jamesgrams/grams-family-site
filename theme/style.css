@@ -192,10 +192,10 @@ footer a {
     text-align: left;
 }
 .side:first-child {
-    width: 75%;
+    flex-basis: 75%;
 }
 .side:nth-child(2) {
-    width: 25%;
+    flex-basis: 25%;
 }
 .sidebar-box {
     background-color: #663300;
