@@ -18,7 +18,7 @@
         <?php wp_head()?>
     </head>
     <body>
-    <header><h1>The Grams Family</h1><?php wp_nav_menu(); ?></header>
+    <header><a href="/"><h1>The Grams Family</h1></a><?php wp_nav_menu(); ?></header>
         <main>
             <div class="split">
                 <div class="side">
