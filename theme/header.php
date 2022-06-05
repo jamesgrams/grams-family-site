@@ -15,6 +15,7 @@
         <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#00381c">
         <meta name="msapplication-TileColor" content="#00381c">
         <meta name="theme-color" content="#00381c">
+        <?php wp_head()?>
     </head>
     <body>
     <header><h1>The Grams Family</h1></header>

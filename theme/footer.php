@@ -6,4 +6,5 @@
             <p>Thanks for visiting!</p>
         </footer>
     </body>
+    <?php wp_footer()?>
 </html>
