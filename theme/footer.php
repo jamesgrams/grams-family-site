@@ -1,3 +1,4 @@
+        <?php get_sidebar()?>
         </main>
         <footer>
             <p>Created by <a href="https://jamesgrams.com" target="_blank" rel="noopener noreferrer">James Grams</a>
