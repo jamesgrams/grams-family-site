@@ -245,6 +245,9 @@ figcaption, .comment-meta {
 .comment-list, .comment-list ol {
     list-style-type: none;
 }
+label[for="comment"] {
+    display: block;
+}
 .comment {
     margin-top: 20px;
 }
@@ -252,9 +255,6 @@ figcaption, .comment-meta {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-label[for="comment"] {
-    display: block;
 }
 
 @media only screen and (max-width: 830px) {
