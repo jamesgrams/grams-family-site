@@ -225,7 +225,7 @@ figcaption {
     font-size: 12px;
 }
 .video-portrait {
-    max-width: 400px;
+    max-width: calc(56.25vh - 40px);
 }
 
 @media only screen and (max-width: 830px) {
