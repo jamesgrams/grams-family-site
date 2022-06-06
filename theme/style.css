@@ -233,7 +233,7 @@ footer a {
 .pagination {
 	text-align: right;
 }
-figcaption {
+figcaption, .comment-meta {
     font-size: 12px;
 }
 .video-portrait {
@@ -241,6 +241,17 @@ figcaption {
 }
 .author-list {
     margin-bottom: 1em !important;
+}
+.comment-list {
+    list-style-type: none;
+}
+.comment .avatar { 
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+label[for="comment"] {
+    display: block;
 }
 
 @media only screen and (max-width: 830px) {
