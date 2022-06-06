@@ -239,6 +239,9 @@ figcaption {
 .video-portrait {
     max-width: calc(56.25vh - 40px);
 }
+.author-list {
+    margin-bottom: 1em !important;
+}
 
 @media only screen and (max-width: 830px) {
     .split {
