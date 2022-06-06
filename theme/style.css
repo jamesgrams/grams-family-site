@@ -245,7 +245,7 @@ figcaption {
         display: block;
     }
     .side {
-        width: calc(100% - 44.5px) !important;
+        width: calc(100% - 40px) !important;
     }
     header {
         margin-bottom: 55px;
@@ -258,7 +258,7 @@ figcaption {
         margin-right: 10px;
     }
     .menu {
-        transform: translateX(calc(100% - 34px));
+        transform: translateX(calc(100% - 44.5px));
         transition: transform 0.2s;
     }
     .menu.open::before {
