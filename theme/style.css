@@ -240,7 +240,7 @@ figcaption, .comment-meta {
     max-width: calc(56.25vh - 40px);
 }
 .author-list {
-    margin-bottom: 1em !important;
+    padding-bottom: 1em !important;
 }
 .comment-list, .comment-list ol {
     list-style-type: none;
