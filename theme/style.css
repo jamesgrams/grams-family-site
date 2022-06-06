@@ -242,8 +242,11 @@ figcaption, .comment-meta {
 .author-list {
     margin-bottom: 1em !important;
 }
-.comment-list {
+.comment-list, .comment-list ol {
     list-style-type: none;
+}
+.comment {
+    margin-top: 10px;
 }
 .comment .avatar { 
     float: left;
