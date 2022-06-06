@@ -246,7 +246,6 @@ figcaption {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         content: "\f0c9";
-        width: 30px;
     }
     .menu {
         transform: translateX(calc(100% - 34px));
