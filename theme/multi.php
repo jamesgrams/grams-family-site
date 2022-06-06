@@ -10,10 +10,8 @@
         <div class="entry">
             <?php the_content(); ?>
         </div>
-        <hr>
         <!-- Display a comma separated list of the Post's Categories. -->
         <p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></p>
-        <hr>
     </div> <!-- closes the first div box -->
         
 <!-- Stop The Loop (but note the "else:" - see next line). -->
