@@ -12,6 +12,7 @@
         </div>
         <!-- Display a comma separated list of the Post's Categories. -->
         <p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></p>
+        <?php if ( !isset($args["h"]) ) : ?><a href="<?php comments_link(); ?>"><?php printf( _nx( '%1$s comment"', '%1$s comments"', get_comments_number() ), number_format_i18n( get_comments_number() ) );?></a><?php endif; ?>
     </div> <!-- closes the first div box -->
         
 <!-- Stop The Loop (but note the "else:" - see next line). -->
