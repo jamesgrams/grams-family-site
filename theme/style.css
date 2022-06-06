@@ -33,7 +33,7 @@ header {
     height: 175px;
     border-bottom: 4px solid #351A00;
     position: relative;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
 }
 header > a {
     text-decoration: none;
@@ -135,9 +135,7 @@ text {
 https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-y-hidden-causing-scrollbar-issue */
 #container-wrapper-wrapper {
     border: 8px double #351A00;
-    width: calc(100% - 36px);
-    margin-left: 10px;
-    margin-right: 10px;
+    width: calc(100% - 16px);
 }
 #container-wrapper {
     overflow-x: scroll;
@@ -189,6 +187,7 @@ footer a {
 .side {
     flex-grow: 1;
     margin: 20px;
+    margin-bottom: 0; /* Footer takes care of margin */
     text-align: left;
 }
 .side:first-child {
@@ -236,7 +235,7 @@ figcaption {
     .side {
         width: calc(100% - 40px) !important;
     }
-    .sidebar-box {
-        min-width: initial;
+    header {
+        margin-bottom: 55px;
     }
 }
