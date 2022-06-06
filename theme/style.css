@@ -222,6 +222,10 @@ footer a {
 .pagination {
 	text-align: right;
 }
+figcaption {
+    font-size: 12px;
+    text-align: center;
+}
 
 @media only screen and (max-width: 830px) {
     .split {
