@@ -1,6 +1,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+    
     <div class="post">
+        <hr>
         <!-- Display the Title as a link to the Post's permalink. -->
         <<?php echo $args["h"] ? $args["h"] : "h3"?>><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></<?php echo $args["h"] ? $args["h"] : "h3"?>>
         <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
@@ -9,8 +10,10 @@
         <div class="entry">
             <?php the_content(); ?>
         </div>
+        <hr>
         <!-- Display a comma separated list of the Post's Categories. -->
         <p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></p>
+        <hr>
     </div> <!-- closes the first div box -->
         
 <!-- Stop The Loop (but note the "else:" - see next line). -->
