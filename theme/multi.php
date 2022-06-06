@@ -14,7 +14,7 @@
     </div> <!-- closes the first div box -->
         
 <!-- Stop The Loop (but note the "else:" - see next line). -->
-<?php endwhile; else : ?>
+<?php endwhile; ?><div class="pagination"><?php posts_nav_link(); ?></div><?php else : ?>
 
     <!-- The very first "if" tested to see if there were any Posts to -->
     <!-- display.  This "else" part tells what do if there weren't any. -->
