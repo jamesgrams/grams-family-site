@@ -254,12 +254,12 @@ figcaption {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         content: "\f0c9";
-        padding: 8px;
+        padding: 8 16px;
         margin-right: 10px;
     }
     .menu {
         font-size: 22px;
-        transform: translateX(calc(100% - 39.25px));
+        transform: translateX(calc(100% - 54.25px));
         transition: transform 0.2s;
     }
     .menu.open::before {
