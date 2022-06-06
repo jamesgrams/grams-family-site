@@ -217,6 +217,7 @@ footer a {
     border: 4px solid #351a007a;
     border-right: none;
     border-top: none;
+    font-size: 28px;
 }
 .menu li {
     padding: 10px;
@@ -227,7 +228,7 @@ footer a {
     display: block;
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 .pagination {
 	text-align: right;
@@ -244,7 +245,7 @@ figcaption {
         display: block;
     }
     .side {
-        width: calc(100% - 40px) !important;
+        width: calc(100% - 44.5px) !important;
     }
     header {
         margin-bottom: 55px;
