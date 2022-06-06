@@ -365,6 +365,14 @@ var familyMembers = [
 
 $(document).ready( function() {
 
+    // Mobile Menu
+    $(".menu a").click( function(e) {
+        e.stopPropagation();
+    });
+    $(".menu").click( function(e) {
+        $(this).toggleClass("open");
+    });
+
     // We need to wait until fonts are loaded, because fonts impact the size of the boxes
     // and the box sizes impact the positions of the lines that are drawn
     waitForWebfonts( ["Playfair Display"], function() {
