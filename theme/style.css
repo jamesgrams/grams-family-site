@@ -217,7 +217,7 @@ footer a {
     border: 4px solid #351a007a;
     border-right: none;
     border-top: none;
-    font-size: 28px;
+    font-size: 20px;
 }
 .menu li {
     padding: 10px;
@@ -258,7 +258,7 @@ figcaption {
         margin-right: 10px;
     }
     .menu {
-        transform: translateX(calc(100% - 44.5px));
+        transform: translateX(calc(100% - 37.5px));
         transition: transform 0.2s;
     }
     .menu.open::before {
