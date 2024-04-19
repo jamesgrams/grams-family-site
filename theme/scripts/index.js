@@ -264,7 +264,7 @@ var familyMembers = [
         picture: "images/elishajamesongrams3.jpg"
     },
     { 
-        name: "Adalaide Alexandra Grams", 
+        name: "Adelaide Alexandra Grams", 
         id: "adelaidealexandragrams", 
         fatherId: "jamesrollingrams",
         birthday: new Date(2022, 3, 11, 7, 30, 0),
