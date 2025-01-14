@@ -11,10 +11,11 @@ Version: 1.0
     font-family: 'Overlock', serif;
 }
 body {
-    background-color: #f2f2f2;
+    background-color: #fff1dc;
     text-align: center;
     margin: 0;
     color: black;
+    font-size: 120%;
 }
 a {
     color: black;
@@ -54,6 +55,14 @@ h1 {
     color: white;
     background-color: #663300;
     border-radius: 5px;
+}
+hr {
+    height: 4px;
+    color: #351A00;
+    background: #351A00;
+    font-size: 0;
+    border: 0;
+    margin-top: 20px;
 }
 svg {
     position: absolute;
@@ -170,6 +179,8 @@ https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-
 #events {
     margin-left: 10px;
     margin-right: 10px;
+}
+.sidebar-box:nth-child(2) {
     display: none;
 }
 footer {
