@@ -8,16 +8,16 @@ Version: 1.0
 */
 
 * {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Overlock', serif;
 }
 body {
-    background-color: #00381c;
+    background-color: #f2f2f2;
     text-align: center;
     margin: 0;
-    color: white;
+    color: black;
 }
 a {
-    color: white;
+    color: black;
 }
 /*p {
     padding: 10px;
@@ -53,6 +53,7 @@ h1 {
     white-space: nowrap;
     color: white;
     background-color: #663300;
+    border-radius: 5px;
 }
 svg {
     position: absolute;
@@ -178,7 +179,7 @@ footer {
     color: white;
     background-color: #663300;
 }
-footer a {
+footer a, .side, .side a {
     color: white;
 }
 .split {
@@ -202,6 +203,7 @@ footer a {
     padding: 20px;
     margin-top: 20px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 .sidebar-box h2 {
     margin-top: 0;
@@ -218,6 +220,8 @@ footer a {
     border-right: none;
     border-top: none;
     font-size: 18px;
+    border-radius: 5px;
+    display: none;
 }
 .menu li {
     padding: 10px;
