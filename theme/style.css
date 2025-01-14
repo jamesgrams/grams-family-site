@@ -170,6 +170,7 @@ https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-
 #events {
     margin-left: 10px;
     margin-right: 10px;
+    display: none;
 }
 footer {
     border-top: 4px solid #351A00;
@@ -179,7 +180,7 @@ footer {
     color: white;
     background-color: #663300;
 }
-footer a, .side, .side a {
+footer a, .sidebar, .sidebar a {
     color: white;
 }
 .split {
